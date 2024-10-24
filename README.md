@@ -1,7 +1,5 @@
-# Ex04: Places Around Me
-## Name: YASEEN F
-## Reg no: 212223220126
-## Date:07-10-24
+# Ex04 Places Around Me
+## Date:24.10.2024
 
 ## AIM
 To develop a website to display details about the places around my house.
@@ -29,48 +27,52 @@ Execute the programs and publish them.
 ## CODE
 ```
 
+Developed by :YASEEN F
+Register Number :212223220126
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            background-color: aqua;
+        }
+        
+    </style>
 </head>
-<style>
-    *{margin: 0;}
-</style>
-<script>
-    function coordinate(event){
-        let x=event.clientX;
-        let y=event.clientY;
-        document.getElementById("text1").value=x;
-        document.getElementById("text2").value=y;
-    }
-</script>
 <body>
-    <img src="map.png" width="1500" height="650" usemap="#MapNew" onmousemove="coordinate(event)">
-    <MAP name="MapNew">
-        <area shape="rect" coords="198,294,240,313" href="https://apolloartsandsciencecollegechennai.ac.in/" Title="Apollo Arts And Science" >
-        <area shape="rect" coords="297,330,380,393" href="https://www.saveetha.ac.in/" Title="Saveetha Engineering College" >
-        <area shape="rect" coords="943,117,1000,184" href="https://sapoly.edu.in/" Title="SA Polytechnic College" >
-        <area shape="rect" coords="1152,280,1227,328" href="https://www.sriramachandra.edu.in/" Title="Sri Ramachandra Hospitals" >
-        <area shape="rect" coords="928,10,1005,13" href="https://www.mahalakshmi.edu.in/" Title="Mahalakshmi Women's College" >
-        <area shape="rect" coords="1143,211,1209,254" href="https://www.alphagroup.edu.in/" Title="Alpha Arts And Science College" >
-
-    </MAP>
-    <br>
-    X coordinator
-    <input type="text" id="text1">
-    <br>
-    Y coordinate
-    <input type="text" id="text2">
+    <img src="d2.png" alt="" height = "530" usemap = "#MapNew" onmousemove = "coordinate(event)">
+    <map name="MapNew">
+        <area shape="RECT" coords="234,189,267,244" href="https://www.booking.com/hotel/in/hyatt-regency-chennai.html" alt="hyatt">
+        <area shape="RECT" coords="366,311,389,280" href="https://www.kauveryhospital.com/" alt="kauvery hospital">
+        <area shape="rect" coords="223,231,267,340" href="https://www.kunmotorrad.in/" alt="bmw">
+        <area shape="rect" coords="50,240,76,250" href="https://www.booking.com/hotel/in/grt-grand-chennai-chennai.html" alt="grt">
+        <area shape="rect" coords="197,468,220,498" href="https://www.agscinemas.com/" alt="ags">
+    </map><br>
+    
+    
+   
 </body>
 </html>
 ```
 
 ## OUTPUT
 
-![image](https://github.com/user-attachments/assets/ff81dde4-6752-4b5e-baa7-45171e09aa0e)
+![Screenshot 2024-04-16 225804](https://github.com/gowshik145/NearMe/assets/155086127/c99928af-9c0d-4516-ae02-07e6662520f9)
+![Screenshot 2024-04-16 230010](https://github.com/gowshik145/NearMe/assets/155086127/3996a70c-5496-43be-8fe8-4ba486c84687)
+![Screenshot 2024-04-16 230119](https://github.com/gowshik145/NearMe/assets/155086127/a36d43fa-580f-4157-a3f4-c39bc4a85b52)
+![Screenshot 2024-04-16 230220](https://github.com/gowshik145/NearMe/assets/155086127/a7d7ad3f-1083-44e4-8066-fa08bf9edeb0)
+![Screenshot 2024-04-16 231253](https://github.com/gowshik145/NearMe/assets/155086127/8be72dbf-6fcd-458f-b52a-e3a29d1f7e4c)
+![Screenshot 2024-04-16 230952](https://github.com/gowshik145/NearMe/assets/155086127/38c8a9ac-0563-466e-b8d2-751c5c7891b5)
+
+
+
+
+
+
+
 
 
 ## RESULT
